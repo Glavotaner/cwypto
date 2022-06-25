@@ -21,7 +21,7 @@ class CwyptoApp extends StatelessWidget {
       ),
       body: BlocProvider(
         create: (context) =>
-            CipherCubit(cipher: const GlavaCipher.decrypted('')),
+            CipherCubit(cipher: const CipherImpl.decrypted('')),
         child: Builder(
           builder: ((context) {
             return Column(
