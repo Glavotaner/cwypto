@@ -32,6 +32,8 @@ dependencies:
   flutter_bloc:
   clipboard:
   equatable:
+  meta:
+  bloc:
 
   api:
     path: '../api'
