@@ -28,7 +28,10 @@ class EncryptedText extends StatelessWidget {
               ),
             );
           } else {
-            return const Text('');
+            return const Padding(
+              padding: EdgeInsets.all(30.0),
+              child: Text('Please put in somefin...'),
+            );
           }
         },
       ),
